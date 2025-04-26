@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LA2 Visualizer (TS)</title>
+    <!-- sigma.js library links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sigma.js/2.4.0/sigma.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/graphology/0.25.4/graphology.umd.min.js"></script>
+</head>
+<body style="background: lightgrey">
+
+    <div id="MenuBar">
+        
+        <!-- Life saver: https://www.fileformat.info/info/unicode/char/2713/index.htm -->
+
+        <!-- This will be aligned by the script (?) -->
+        <button id="SaveBtn" type="button" disabled>&#x1f4be;</button>
+        <button id="DownloadBtn" type="button" disabled>&#x21E9;</button>
+        
+        <label for="getComboFileIpt">Select combinations list:</label>
+        <input type="file" id="getComboFile" name="getComboFile" accept=".txt" />
+
+        <button id="ShowComboListBtn" type="button" disabled>&#x1f4dc;</button>
+        <button id="AddComboBtn" type="button" disabled>&#x2795;</button>
+        <button id="RemoveComboBtn" type="button" disabled>&#x2796;</button>
+
+    </div>
+
+    <div id="combosAndMapContainer">
+
+        <div id="combosDisplay" style="background: white; width:500px; height:500px;"></div>
+
+    </div>
+
+    <!-- Script (TypeScript combined into one JS file made with Webpack) -->
+    <script src="./bundle.js"></script>
+
+</body>
+</html>

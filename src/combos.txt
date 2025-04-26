@@ -1,0 +1,47 @@
+water, fire, steam
+fire, earth, lava
+lava, water, rock
+rock, fire, fire stone
+rock, water, grit
+water, earth, mud
+air, air, pressure
+mud, pressure, rock
+earth, pressure, earth quake
+water, water, pond
+pond, water, sea
+earth, lava, volcano
+volcano, sea, island
+island, grit, sand
+island, sand, beach
+beach, sea, island
+earth quake, lava, tectonic plates
+earth quake, volcano, tectonic plates
+tectonic plates, sea, volcano
+water, grit, sand
+earth, grit, dirt
+water, dirt, mud
+mud, grit, dirt
+beach, dirt, sand
+air, steam, cloud
+cloud, water, rain
+rain, rain, pond
+rain, dirt, mud
+cloud, pressure, tornado
+tornado, fire, firenado
+fire, fire, heat
+rain, heat, steam
+cloud, sea, rain
+fire, cloud, rain
+rock, rock, boulder
+fire stone, beach, bullshit
+fire stone, air, bullshit
+fire stone, firenado, bullshit
+fire stone, cloud, bullshit
+bullshit, bullshit, fuck
+cloud, air, fuck
+beach, air, fuck
+firenado, air, fuck
+fire, air, fuck
+rain, grit, fuck
+island, pond, fuck
+lava, oops, fuck
